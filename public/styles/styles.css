@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+main,
+form {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+input[readonly] {
+  background-color: lightgray;
+}
+
+table,
+th,
+td {
+  border: solid black 1px;
+  padding: 0.5em;
+}
+
+thead {
+  background-color: khaki;
+}
+
+button {
+  font-family: sans-serif;
+  width: 13em;
+  height: 2em;
+  margin: 1rem 0;
+}
+
+p.info {
+  border: solid green 2px;
+  padding: 1em;
+}
+
+p.error {
+  border: dashed red 2px;
+  padding: 1em;
+}
+
+h1.error {
+  color: red;
+}

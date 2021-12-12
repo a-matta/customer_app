@@ -1,0 +1,4 @@
+{
+  "storageFile": "customers.json",
+  "adapterFile": "customer-Adapter.js"
+}
